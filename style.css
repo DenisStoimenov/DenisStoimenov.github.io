@@ -1,0 +1,242 @@
+html{
+    background-color: brown;
+}
+
+
+
+#Glaven_Del{
+    background-image: url(
+      ./living-room.jpg
+    ) ;
+    background-size: cover;
+    background-position: center ;
+        background-position-x: center;
+        background-position-y: center ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+
+}
+.naslov_glaven{
+    font-size: 50px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkslategrey
+}
+.gl_paragraf{
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#f3f3f3;
+    text-decoration: solid;
+    background-color: black;
+    box-shadow: 5px 10px #888888;
+}
+
+ body{
+    font-family: 'Times New Roman', Times, serif, ;
+    font-size: 17px;
+    line-height: 1.5;
+
+} 
+
+p{
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* div{
+    font-family: 'Times New Roman', Times, serif, ;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+*/
+#section-3{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+#section-1 {
+    padding: 20px, 20px, 20px, 20px;
+    text-align: center;
+    background:darkslategray;
+     text-align: center;
+     color: #f3f3f3;
+     
+
+
+
+}
+#section-2{
+    padding:20px,20px,20px,20px;
+    background-color: darkslategrey;
+    text-align: left;
+
+}
+.section{
+    display: block;
+}
+
+#section-3{
+    display: flex;
+    }
+
+#section-3.div{
+    padding: 20px,20px,20px,20px;
+
+}
+
+
+
+
+
+    a.button1 {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+    
+        text-decoration: solid;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        color: initial;
+        margin-top:20px;
+        padding:10px, 20px, 10px, 20px;
+        border-radius: 10px,10px,10px,10px;
+        border-color: black ;
+        border-style: solid;
+        border-width: 1px;
+        background-color: burlywood;
+    }
+
+    a.button2{
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+    
+        text-decoration: solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+
+        color: initial;
+        margin-top:20px;
+        padding:10px, 20px, 10px, 20px;
+        border-radius: 10px,10px,10px,10px;
+        border-color: black ;
+        border-style: solid;
+        border-width: 1px;
+        background-color: burlywood;
+
+
+    }
+    a.button3{
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+    
+        text-decoration: solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        color: initial;
+        margin-top:20px;
+        padding:10px, 20px, 10px, 20px;
+        border-radius: 10px,10px,10px,10px;
+        border-color: black ;
+        border-style: solid;
+        border-width: 1px;
+        background-color: burlywood;
+    }
+
+    a.bcktoTop1{
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+    
+        text-decoration: solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        color: initial;
+        margin-top:20px;
+        padding:10px, 20px, 10px, 20px;
+        border-radius: 10px,10px,10px,10px;
+        border-color: black ;
+        border-style: solid;
+        border-width: 1px;
+        background-color: darkslategrey;
+
+
+    }
+
+   a.bcktoTop1:hover{
+
+        background-color: red;
+        padding:20px, 30px, 20px, 30px;
+        border-radius: 20px,20px,20px,20px;
+
+    }
+
+    
+            #leftbox {
+                float:left; 
+                background:darkslategray;
+                width:25%;
+                height:280px;
+            }
+            #middlebox{
+                float:left; 
+                background: #f3f3f3;
+                width:50%;
+                height:280px;
+            }
+            #rightbox{
+                float:right;
+                background:darkslategray;
+                width:25%;
+                height:280px;
+            }
+            h1{
+                color:green;
+                text-align:center;
+            }
+
+.krajna{
+
+    background-color: black;
+    color:#f3f3f3
+}
+
+.link{
+    background-color: khaki;
+}
+/*
+      
+@media screen and (device-width: 360px) and (device-height: 740px) {
+    #leftbox, #middlebox, #rightbox{
+      width: auto;
+      height:auto;
+
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    #leftbox{
+        height: auto;
+        width: auto;
+    }
+    
+  }
+  */
